@@ -1,7 +1,7 @@
 <?php
-	include "HipChat.php";
+	require "HipChat.php";
 
-	include "configuration.php";
+	require "configuration.php";
 	
 	//HipChat API token.
 	$hcToken = "hipchat_api_token";
