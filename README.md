@@ -35,3 +35,8 @@ $url = 'http://www.adres.com/admin/';
 ```
 
 Lütfen PHP hata raporlama özelliğinin kapalı olduğundan emin olunuz.
+
+```php
+error_reporting(0);
+ini_set('display_errors', 'Off');
+```
