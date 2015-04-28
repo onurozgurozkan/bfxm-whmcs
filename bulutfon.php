@@ -23,7 +23,7 @@ $url = 'http://www.adres.com/admin/';
 
 // Adresinizi korumak icin basit bir rasgele deger.Bu değeri url
 // degerinize hash parametresi olarak eklemeniz gerek.
-// Ornegin http://adresinz.com/bulutfon.php?hash=rgLvnZ76TuPqakVkZFve
+// Ornegin http://adresiniz.com/bulutfon.php?hash=rgLvnZ76TuPqakVkZFve
 $hashValue = 'rgLvnZ76TuPqakVkZFve';
 
 function json($array){
