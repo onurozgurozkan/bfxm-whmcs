@@ -8,12 +8,12 @@ Uygulama WHMCS konfigurasyon dosyanız ve [hipchat/hipchat-php](https://github.c
 ### Kullanım
 İlk olarak HipChat kütüphaneniz ve WHMCS konfigürasyon dosyanızı bulunduğu dizin yolunu ekleyiniz.
 
-```
+```php
 require "HipChat.php";
 require "configuration.php";
 ```	
 Sonrasında aşağıdaki basit ayarları yaparak kullanmaya başlayabilirsiniz.
-```
+```php
 //HipChat API token.
 $hcToken = "hipchat_api_token";
 
