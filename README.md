@@ -26,6 +26,9 @@ $roomName = 'HIPCHAT ROOM NAME';
 // Mesaj gonderen ismi.
 $from = 'BULUTFON';
 
+// Karsilama menusu id'si
+$welcome = 8;
+
 // WHMCS admin paneli urlsi
 $url = 'http://www.adres.com/admin/';
 ```

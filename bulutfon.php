@@ -15,6 +15,9 @@
 	// Mesaj gonderen ismi.
 	$from = 'BULUTFON';
 
+	// Karsilama menusu id'si
+	$welcome = 8;
+
 	// WHMCS admin paneli urlsi
 	$url = 'http://www.adres.com/admin/';
 
@@ -45,7 +48,7 @@
 			array(
 				"action"=>"dial",
 				// 8 bizim yonlendirecegimiz grup numarasi.
-				"args"=>array("destination"=>8)
+				"args"=>array("destination"=>$welcome)
 			)
 		)
 	);
