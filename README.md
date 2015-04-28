@@ -1,6 +1,6 @@
 # BulutfonXM ile WHMCS,HipChat Entegrasyonu
 
-Bu basit uygulama ile [BulutfonXM](http://www.bulutfon.com) yardımıyla sizi arayan kullanıcıları ve gönderdikleri son 5 destek bildirimini HipChat kanalınıza mesaj olarak gönderebilirsiniz.
+Bu basit uygulama ile [BulutfonXM](https://github.com/bulutfon/documents/tree/master/BFXM) yardımıyla sizi arayan kullanıcıları ve gönderdikleri son 5 destek bildirimini HipChat kanalınıza mesaj olarak gönderebilirsiniz.
 
 Uygulama WHMCS konfigurasyon dosyanız ve [hipchat/hipchat-php](https://github.com/hipchat/hipchat-php) kütüphanesi kullanmaktadır.
 
