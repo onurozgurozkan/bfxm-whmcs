@@ -15,6 +15,9 @@
 	// Mesaj gonderen ismi.
 	$from = 'BULUTFON';
 
+	// WHMCS admin paneli urlsi
+	$url = 'http://www.adres.com/admin/';
+
 	function json($array){
 		header('Content-Type: application/json');
 		die(json_encode($array));
@@ -75,7 +78,7 @@
 			$liste = "<ul>";
 
 			foreach($tickets as $p){
-				$liste.="<br><li> <a href='https://www.netinternet.com.tr/panel/niteladmin/supporttickets.php?action=view&id={$p->id}'>{$p->title}</a></li>";
+				$liste.="<br><li> <a href='{$url}supporttickets.php?action=view&id={$p->id}'>{$p->title}</a></li>";
 			}
 
 			$liste .="</ul>";
