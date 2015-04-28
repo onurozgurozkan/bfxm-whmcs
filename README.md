@@ -32,7 +32,15 @@ $welcome = 8;
 
 // WHMCS admin paneli urlsi
 $url = 'http://www.adres.com/admin/';
+
+$hashValue = 'rgLvnZ76TuPqakVkZFve';
 ```
+**$hashValue** değerini değiştirdikten sonra BulutfonXM url'nize hash parametresi olarak ekleyiniz.
+
+Örneğin
+> http://www.adresiniz.com/bulutfon.php?hash=rgLvnZ76TuPqakVkZFve
+
+
 
 Lütfen PHP hata raporlama özelliğinin kapalı olduğundan emin olunuz.
 

@@ -21,6 +21,11 @@ $welcome = 8;
 // WHMCS admin paneli urlsi
 $url = 'http://www.adres.com/admin/';
 
+// Adresinizi korumak icin basit bir rasgele deger.Bu değeri url
+// degerinize hash parametresi olarak eklemeniz gerek.
+// Ornegin http://adresinz.com/bulutfon.php?hash=rgLvnZ76TuPqakVkZFve
+$hashValue = 'rgLvnZ76TuPqakVkZFve';
+
 function json($array){
 	header('Content-Type: application/json');
 	die(json_encode($array));
@@ -35,7 +40,7 @@ $caller = isset($_POST['caller']) ? ltrim($_POST['caller'],'90') : false;
 // bir hash ile guvenligimizi biraz daha artirabiliriz.
 $hash = isset($_GET['hash']) ? $_GET['hash'] : false;
 
-if($hash!='HASH' || !$caller) json(['error'=>'parameters missing']);
+if($hash!=$hashValue || !$caller) json(['error'=>'parameters missing']);
 
 $conn = new PDO("mysql:host=localhost;dbname={$db_name}",$db_username,$db_password);
 
